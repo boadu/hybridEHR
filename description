@@ -3,8 +3,8 @@ Type: Package
 Title: Synthetic Hybrid EHR Dataset Generator with COVID/CT Research Views
 Version: 0.1.0
 Authors@R: 
-    person("YourFirstName", "YourLastName", 
-           email = "you@example.com", 
+    person("Dennis", "Boadu", 
+           email = "doboadu@st.ug.edu.gh", 
            role = c("aut", "cre"))
 Description: 
     Tools to generate synthetic electronic health records (EHR) including 

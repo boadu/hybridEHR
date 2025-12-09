@@ -1,6 +1,6 @@
 Package: hybridEHR
 Type: Package
-Title: Synthetic Hybrid EHR Dataset Generator with COVID/CT Research Views
+Title: Synthetic Hybrid Electronic Health Records Dataset Generator
 Version: 0.1.0
 Authors@R:
     c(
@@ -8,12 +8,12 @@ Authors@R:
     person("Isaac", "Osei", email = "ikemillar65@gmail.com", role = "aut"),
     person("Justice", "Appati", email = "jkappati@ug.edu.gh", role = "aut")
     )
-Maintainer: Dennis Opoku Boadu <doboadu@st.ug.edu.gh>
+Maintainer: "Dennis Boadu <doboadu@st.ug.edu.gh>"
 Description: 
-    Tools to generate synthetic electronic health records (EHR) including 
-    patients, encounters, vitals, labs, medications, procedures, and allergies,
-    with optional COVID-19-focused and computed tomography (CT)-research views, and export them to
-    comma seperated value (CSV), structure-query lite (SQLite), and Excel formats for researchers and developers.
+   Description: 
+    Provides tools to generate synthetic electronic health record datasets, including patients, encounters, vitals, laboratory tests, medications,
+    procedures, and allergies. Optional modules support COVID-19–focused profiles and computed tomography (CT) research views. Generated datasets can be 
+    exported to comma-separated values (CSV), SQLite databases, and Excel workbooks for use by researchers and developers.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

@@ -7,6 +7,7 @@ It supports export to CSV, Excel, SQLite, and JSON metadata, making it useful fo
 - simulation studies
 - full EHR system testing
 - research workflows requiring realistic but non-identifiable health data
+
 The package produces a structured, multi-table EHR dataset including:
 patients, encounters, vitals, labs, medications, procedures, allergies, plus two derived research tables:
 - ct_research_view: aggregated patient-level CT-related clinical features
@@ -22,6 +23,7 @@ Labs (COVID-relevant inflammatory markers + routine labs)
 Medications (COVID + non-COVID therapeutic patterns)
 Procedures (e.g., CT, X-ray, EKG)
 Allergies
+
 2. COVID-focused simulation mode
 When covid_focused = TRUE, the generator adds:
 COVID test results & severity
@@ -30,18 +32,21 @@ Ward type (ICU, step-down, general)
 Steroid / anticoagulation exposure patterns
 COVID-linked lab trajectories
 Time-to-CT and admission-to-CT intervals
+
 3. CT-scan research view (optional)
 When include_ct_links = TRUE, the package creates:
 CT scan dates
 CT severity score (derived clinical severity metric)
 Research-focused laboratory, vital sign, and timing variables
-4. ML-ready flat table
+
+5. ML-ready flat table
 A consolidated, patient-level table for direct ML model training:
 encounter summaries
 aggregated vitals
 aggregated labs
 demographics & comorbidity burden
-5. Export utilities
+
+6. Export utilities
 export_hybrid_ehr_dataset() produces:
 structured folder output
 complete CSV tables

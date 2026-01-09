@@ -56,7 +56,8 @@ metadata and JSON configuration
 
 
 Installation
-- install.packages("hybridEHR)
+- install.packages("hybridEHR")
+  
 Load the package
 - library(hybridEHR)
   
